@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "react-query";
-import { getTodos, deleteTodo, updateTodo, addTodo } from "src/api/todosApi";
+import { getTodos, deleteTodo, updateTodo, addTodo } from "../../api/todosApi";
 
 function TodoList() {
   const [newTodo, setNewTodo] = useState("");
